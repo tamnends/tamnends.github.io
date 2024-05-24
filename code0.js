@@ -36,7 +36,15 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusic(runtimeScene, "dungeon_theme_1.wav", true, 100, 1);
+}}
+
 }
+
+
+{
+
+
 
 }
 
@@ -105,6 +113,13 @@ gdjs.copyArray(runtimeScene.getObjects("Platform1"), gdjs.Untitled_32sceneCode.G
     gdjs.Untitled_32sceneCode.GDPlatform2Objects1[i].setX((( gdjs.Untitled_32sceneCode.GDPlatform1Objects1.length === 0 ) ? 0 :gdjs.Untitled_32sceneCode.GDPlatform1Objects1[0].getX()) + (( gdjs.Untitled_32sceneCode.GDPlatform1Objects1.length === 0 ) ? 0 :gdjs.Untitled_32sceneCode.GDPlatform1Objects1[0].getWidth()));
 }
 }}
+
+}
+
+
+{
+
+
 
 }
 
