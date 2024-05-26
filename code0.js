@@ -29,6 +29,8 @@ gdjs.Untitled_32sceneCode.GDTopArrowRoundButtonObjects1= [];
 gdjs.Untitled_32sceneCode.GDTopArrowRoundButtonObjects2= [];
 gdjs.Untitled_32sceneCode.GDPlayerHitBoxObjects1= [];
 gdjs.Untitled_32sceneCode.GDPlayerHitBoxObjects2= [];
+gdjs.Untitled_32sceneCode.GDDebugTextObjects1= [];
+gdjs.Untitled_32sceneCode.GDDebugTextObjects2= [];
 
 
 gdjs.Untitled_32sceneCode.eventsList0 = function(runtimeScene) {
@@ -90,6 +92,7 @@ gdjs.copyArray(runtimeScene.getObjects("TopArrowRoundButton"), gdjs.Untitled_32s
 }{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDPlayerHitBoxObjects1.length ;i < len;++i) {
     gdjs.Untitled_32sceneCode.GDPlayerHitBoxObjects1[i].hide();
 }
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "ScoreTimer");
 }}
 
 }
@@ -103,19 +106,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "ScoreTimer") > 1;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "ScoreTimer") > 1;
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "ScoreTimer");
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "ScoreTimer");
 }}
 
 }
@@ -338,10 +329,21 @@ gdjs.Untitled_32sceneCode.eventsList0(runtimeScene);} //End of subevents
 {
 
 
+
+}
+
+
+{
+
+
 let isConditionTrue_0 = false;
 {
+gdjs.copyArray(runtimeScene.getObjects("DebugText"), gdjs.Untitled_32sceneCode.GDDebugTextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Score"), gdjs.Untitled_32sceneCode.GDScoreObjects1);
-{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDScoreObjects1.length ;i < len;++i) {
+{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDDebugTextObjects1.length ;i < len;++i) {
+    gdjs.Untitled_32sceneCode.GDDebugTextObjects1[i].getBehavior("Text").setText("Timer: " + gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "ScoreTimer")) + " | Score: " + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0))));
+}
+}{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDScoreObjects1.length ;i < len;++i) {
     gdjs.Untitled_32sceneCode.GDScoreObjects1[i].getBehavior("Text").setText("Score: " + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0))));
 }
 }}
@@ -384,6 +386,8 @@ gdjs.Untitled_32sceneCode.GDTopArrowRoundButtonObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDTopArrowRoundButtonObjects2.length = 0;
 gdjs.Untitled_32sceneCode.GDPlayerHitBoxObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDPlayerHitBoxObjects2.length = 0;
+gdjs.Untitled_32sceneCode.GDDebugTextObjects1.length = 0;
+gdjs.Untitled_32sceneCode.GDDebugTextObjects2.length = 0;
 
 gdjs.Untitled_32sceneCode.eventsList1(runtimeScene);
 
