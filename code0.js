@@ -124,9 +124,6 @@ gdjs.Untitled_32sceneCode.GDGraveyardBackgroundObjects3= [];
 gdjs.Untitled_32sceneCode.GDRainObjects1= [];
 gdjs.Untitled_32sceneCode.GDRainObjects2= [];
 gdjs.Untitled_32sceneCode.GDRainObjects3= [];
-gdjs.Untitled_32sceneCode.GDTornadoObjects1= [];
-gdjs.Untitled_32sceneCode.GDTornadoObjects2= [];
-gdjs.Untitled_32sceneCode.GDTornadoObjects3= [];
 
 
 gdjs.Untitled_32sceneCode.mapOfGDgdjs_9546Untitled_959532sceneCode_9546GDSprite_95959595B2Objects1Objects = Hashtable.newFrom({"Sprite_B2": gdjs.Untitled_32sceneCode.GDSprite_9595B2Objects1});
@@ -1832,9 +1829,6 @@ gdjs.Untitled_32sceneCode.GDGraveyardBackgroundObjects3.length = 0;
 gdjs.Untitled_32sceneCode.GDRainObjects1.length = 0;
 gdjs.Untitled_32sceneCode.GDRainObjects2.length = 0;
 gdjs.Untitled_32sceneCode.GDRainObjects3.length = 0;
-gdjs.Untitled_32sceneCode.GDTornadoObjects1.length = 0;
-gdjs.Untitled_32sceneCode.GDTornadoObjects2.length = 0;
-gdjs.Untitled_32sceneCode.GDTornadoObjects3.length = 0;
 
 gdjs.Untitled_32sceneCode.eventsList2(runtimeScene);
 
