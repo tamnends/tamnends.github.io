@@ -3,7 +3,7 @@
   "short_name": "ViT",
   "id": "com.example.gamename",
   "description": "",
-  "orientation": "portrait",
+  "orientation": "any",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",
