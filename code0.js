@@ -1857,7 +1857,7 @@ gdjs.Untitled_32sceneCode.GDResetButtonObjects1.length = 0;
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "ObstacleTimer");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "ScoreTimer");
 }{gdjs.evtTools.camera.enableLayerEffect(runtimeScene, "", "Effect", true);
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Untitled_32sceneCode.mapOfGDgdjs_9546Untitled_959532sceneCode_9546GDResetButtonObjects1Objects, 224, 240, "");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Untitled_32sceneCode.mapOfGDgdjs_9546Untitled_959532sceneCode_9546GDResetButtonObjects1Objects, (gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (( gdjs.Untitled_32sceneCode.GDResetButtonObjects1.length === 0 ) ? 0 :gdjs.Untitled_32sceneCode.GDResetButtonObjects1[0].getWidth())) / 2, (gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) - (( gdjs.Untitled_32sceneCode.GDResetButtonObjects1.length === 0 ) ? 0 :gdjs.Untitled_32sceneCode.GDResetButtonObjects1[0].getHeight())) / 2 - (( gdjs.Untitled_32sceneCode.GDResetButtonObjects1.length === 0 ) ? 0 :gdjs.Untitled_32sceneCode.GDResetButtonObjects1[0].getHeight()), "");
 }{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDResetButtonObjects1.length ;i < len;++i) {
     gdjs.Untitled_32sceneCode.GDResetButtonObjects1[i].getBehavior("Resizable").setSize(160, 48);
 }
