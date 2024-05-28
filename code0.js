@@ -1750,7 +1750,11 @@ for (var i = 0, k = 0, l = gdjs.Untitled_32sceneCode.GD_951043_951088_951086_951
 }
 gdjs.Untitled_32sceneCode.GD_951043_951088_951086_951084Objects1.length = k;
 if (isConditionTrue_0) {
+/* Reuse gdjs.Untitled_32sceneCode.GD_951043_951088_951086_951084Objects1 */
 {gdjs.evtTools.camera.enableLayerEffect(runtimeScene, "BG", "Effect", false);
+}{for(var i = 0, len = gdjs.Untitled_32sceneCode.GD_951043_951088_951086_951084Objects1.length ;i < len;++i) {
+    gdjs.Untitled_32sceneCode.GD_951043_951088_951086_951084Objects1[i].deleteFromScene(runtimeScene);
+}
 }}
 
 }
@@ -1846,6 +1850,7 @@ gdjs.Untitled_32sceneCode.GDResetButtonObjects1.length = 0;
 {for(var i = 0, len = gdjs.Untitled_32sceneCode.GDGameOverTextObjects1.length ;i < len;++i) {
     gdjs.Untitled_32sceneCode.GDGameOverTextObjects1[i].hide(false);
 }
+}{gdjs.evtTools.camera.enableLayerEffect(runtimeScene, "BG", "Effect", true);
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "LetterTime");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "ObstacleTimer");
 }{gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "ScoreTimer");
@@ -1859,7 +1864,6 @@ gdjs.Untitled_32sceneCode.GDResetButtonObjects1.length = 0;
 }{for(var i = 0, len = gdjs.Untitled_32sceneCode.GDPlayerHitBoxObjects1.length ;i < len;++i) {
     gdjs.Untitled_32sceneCode.GDPlayerHitBoxObjects1[i].deleteFromScene(runtimeScene);
 }
-}{gdjs.evtTools.camera.enableLayerEffect(runtimeScene, "BG", "Effect", true);
 }}
 
 }
