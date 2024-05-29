@@ -1997,7 +1997,8 @@ if (isConditionTrue_0) {
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(12).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(23).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(30).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(31).setNumber(0);
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(15), true);
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(14), true);
 }}
