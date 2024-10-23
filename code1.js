@@ -170,7 +170,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) == "Main";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18421868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11927052);
 }
 }
 if (isConditionTrue_0) {
@@ -190,7 +190,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) == "Settings";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18423604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11942028);
 }
 }
 if (isConditionTrue_0) {
@@ -210,7 +210,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) == "Credits";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18425356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11752540);
 }
 }
 if (isConditionTrue_0) {
@@ -229,7 +229,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) == "Characters";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18426732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11997820);
 }
 }
 if (isConditionTrue_0) {

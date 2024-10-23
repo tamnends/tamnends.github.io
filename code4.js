@@ -7,7 +7,7 @@ gdjs.EndScreenCode.GDNewSprite2Objects2= [];
 
 
 gdjs.EndScreenCode.mapOfGDgdjs_9546EndScreenCode_9546GDNewSprite2Objects1Objects = Hashtable.newFrom({"NewSprite2": gdjs.EndScreenCode.GDNewSprite2Objects1});
-gdjs.EndScreenCode.asyncCallback18042020 = function (runtimeScene, asyncObjectsList) {
+gdjs.EndScreenCode.asyncCallback19006604 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.EndScreenCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MenuScene", false);
 }gdjs.EndScreenCode.localVariables.length = 0;
@@ -21,7 +21,7 @@ gdjs.EndScreenCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.EndScreenCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.EndScreenCode.asyncCallback18042020(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.EndScreenCode.asyncCallback19006604(runtimeScene, asyncObjectsList)));
 }
 }
 

@@ -13,7 +13,7 @@ gdjs.ScoreScreenCode.GDNicknameInputObjects2= [];
 
 
 gdjs.ScoreScreenCode.mapOfGDgdjs_9546ScoreScreenCode_9546GDNewSprite2Objects1Objects = Hashtable.newFrom({"NewSprite2": gdjs.ScoreScreenCode.GDNewSprite2Objects1});
-gdjs.ScoreScreenCode.asyncCallback17524844 = function (runtimeScene, asyncObjectsList) {
+gdjs.ScoreScreenCode.asyncCallback18985148 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ScoreScreenCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "EndScreen", false);
 }gdjs.ScoreScreenCode.localVariables.length = 0;
@@ -27,7 +27,7 @@ gdjs.ScoreScreenCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.ScoreScreenCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.ScoreScreenCode.asyncCallback17524844(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.ScoreScreenCode.asyncCallback18985148(runtimeScene, asyncObjectsList)));
 }
 }
 
