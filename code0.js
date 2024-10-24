@@ -1,22 +1,13 @@
-gdjs.ClickToBeginCode = {};
-gdjs.ClickToBeginCode.localVariables = [];
-gdjs.ClickToBeginCode.GDNewSpriteObjects1= [];
-gdjs.ClickToBeginCode.GDNewSpriteObjects2= [];
+gdjs.StartSceneCode = {};
+gdjs.StartSceneCode.localVariables = [];
+gdjs.StartSceneCode.GDNewSpriteObjects1= [];
+gdjs.StartSceneCode.GDNewSpriteObjects2= [];
+gdjs.StartSceneCode.GDNewSprite2Objects1= [];
+gdjs.StartSceneCode.GDNewSprite2Objects2= [];
 
 
-gdjs.ClickToBeginCode.eventsList0 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-}
-
-}
-
+gdjs.StartSceneCode.mapOfGDgdjs_9546StartSceneCode_9546GDNewSprite2Objects1Objects = Hashtable.newFrom({"NewSprite2": gdjs.StartSceneCode.GDNewSprite2Objects1});
+gdjs.StartSceneCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -31,21 +22,43 @@ if (isConditionTrue_0) {
 }
 
 
+};gdjs.StartSceneCode.eventsList1 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.StartSceneCode.GDNewSprite2Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.StartSceneCode.mapOfGDgdjs_9546StartSceneCode_9546GDNewSprite2Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.StartSceneCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
 };
 
-gdjs.ClickToBeginCode.func = function(runtimeScene) {
+gdjs.StartSceneCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.ClickToBeginCode.GDNewSpriteObjects1.length = 0;
-gdjs.ClickToBeginCode.GDNewSpriteObjects2.length = 0;
+gdjs.StartSceneCode.GDNewSpriteObjects1.length = 0;
+gdjs.StartSceneCode.GDNewSpriteObjects2.length = 0;
+gdjs.StartSceneCode.GDNewSprite2Objects1.length = 0;
+gdjs.StartSceneCode.GDNewSprite2Objects2.length = 0;
 
-gdjs.ClickToBeginCode.eventsList0(runtimeScene);
-gdjs.ClickToBeginCode.GDNewSpriteObjects1.length = 0;
-gdjs.ClickToBeginCode.GDNewSpriteObjects2.length = 0;
+gdjs.StartSceneCode.eventsList1(runtimeScene);
+gdjs.StartSceneCode.GDNewSpriteObjects1.length = 0;
+gdjs.StartSceneCode.GDNewSpriteObjects2.length = 0;
+gdjs.StartSceneCode.GDNewSprite2Objects1.length = 0;
+gdjs.StartSceneCode.GDNewSprite2Objects2.length = 0;
 
 
 return;
 
 }
 
-gdjs['ClickToBeginCode'] = gdjs.ClickToBeginCode;
+gdjs['StartSceneCode'] = gdjs.StartSceneCode;
