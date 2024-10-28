@@ -12,6 +12,8 @@ gdjs.ScoreScreenCode.GDNicknameInputObjects1= [];
 gdjs.ScoreScreenCode.GDNicknameInputObjects2= [];
 gdjs.ScoreScreenCode.GDNewSprite2Objects1= [];
 gdjs.ScoreScreenCode.GDNewSprite2Objects2= [];
+gdjs.ScoreScreenCode.GDNewSprite3Objects1= [];
+gdjs.ScoreScreenCode.GDNewSprite3Objects2= [];
 
 
 gdjs.ScoreScreenCode.mapOfGDgdjs_9546ScoreScreenCode_9546GDSendButtonObjects1Objects = Hashtable.newFrom({"SendButton": gdjs.ScoreScreenCode.GDSendButtonObjects1});
@@ -88,6 +90,8 @@ gdjs.ScoreScreenCode.GDNicknameInputObjects1.length = 0;
 gdjs.ScoreScreenCode.GDNicknameInputObjects2.length = 0;
 gdjs.ScoreScreenCode.GDNewSprite2Objects1.length = 0;
 gdjs.ScoreScreenCode.GDNewSprite2Objects2.length = 0;
+gdjs.ScoreScreenCode.GDNewSprite3Objects1.length = 0;
+gdjs.ScoreScreenCode.GDNewSprite3Objects2.length = 0;
 
 gdjs.ScoreScreenCode.eventsList2(runtimeScene);
 gdjs.ScoreScreenCode.GDNewSpriteObjects1.length = 0;
@@ -102,6 +106,8 @@ gdjs.ScoreScreenCode.GDNicknameInputObjects1.length = 0;
 gdjs.ScoreScreenCode.GDNicknameInputObjects2.length = 0;
 gdjs.ScoreScreenCode.GDNewSprite2Objects1.length = 0;
 gdjs.ScoreScreenCode.GDNewSprite2Objects2.length = 0;
+gdjs.ScoreScreenCode.GDNewSprite3Objects1.length = 0;
+gdjs.ScoreScreenCode.GDNewSprite3Objects2.length = 0;
 
 
 return;
