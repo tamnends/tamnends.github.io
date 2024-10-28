@@ -16,7 +16,7 @@ gdjs.ScoreScreenCode.GDNewSprite3Objects1= [];
 gdjs.ScoreScreenCode.GDNewSprite3Objects2= [];
 
 
-gdjs.ScoreScreenCode.mapOfGDgdjs_9546ScoreScreenCode_9546GDSendButtonObjects1Objects = Hashtable.newFrom({"SendButton": gdjs.ScoreScreenCode.GDSendButtonObjects1});
+gdjs.ScoreScreenCode.mapOfGDgdjs_9546ScoreScreenCode_9546GDNewSprite3Objects1Objects = Hashtable.newFrom({"NewSprite3": gdjs.ScoreScreenCode.GDNewSprite3Objects1});
 gdjs.ScoreScreenCode.asyncCallback17419452 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ScoreScreenCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "EndScreen", false);
@@ -59,11 +59,11 @@ gdjs.ScoreScreenCode.eventsList0(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("SendButton"), gdjs.ScoreScreenCode.GDSendButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.ScoreScreenCode.GDNewSprite3Objects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.ScoreScreenCode.mapOfGDgdjs_9546ScoreScreenCode_9546GDSendButtonObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.ScoreScreenCode.mapOfGDgdjs_9546ScoreScreenCode_9546GDNewSprite3Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 
 { //Subevents
