@@ -7,7 +7,7 @@ gdjs.EndScreenCode.GDStartAgainObjects2= [];
 
 
 gdjs.EndScreenCode.mapOfGDgdjs_9546EndScreenCode_9546GDStartAgainObjects1Objects = Hashtable.newFrom({"StartAgain": gdjs.EndScreenCode.GDStartAgainObjects1});
-gdjs.EndScreenCode.asyncCallback17441572 = function (runtimeScene, asyncObjectsList) {
+gdjs.EndScreenCode.asyncCallback14833996 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.EndScreenCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "StartScene", false);
 }gdjs.EndScreenCode.localVariables.length = 0;
@@ -21,7 +21,7 @@ gdjs.EndScreenCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.EndScreenCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.EndScreenCode.asyncCallback17441572(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.EndScreenCode.asyncCallback14833996(runtimeScene, asyncObjectsList)));
 }
 }
 

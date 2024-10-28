@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ShakeObject3D__DeleteAll !== "undefined") {
 gdjs.evtsExt__ShakeObject3D__DeleteAll = {};
 
 
-gdjs.evtsExt__ShakeObject3D__DeleteAll.userFunc0x8ec788 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__DeleteAll.userFunc0xa8fe78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._shakeObjectExtension.noiseManager.deleteAllGenerators();
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__ShakeObject3D__DeleteAll.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__ShakeObject3D__DeleteAll.userFunc0x8ec788(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ShakeObject3D__DeleteAll.userFunc0xa8fe78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
