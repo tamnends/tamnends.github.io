@@ -19,7 +19,7 @@ gdjs.ScoreScreenCode.GDNewSprite4Objects2= [];
 
 
 gdjs.ScoreScreenCode.mapOfGDgdjs_9546ScoreScreenCode_9546GDNewSprite3Objects1Objects = Hashtable.newFrom({"NewSprite3": gdjs.ScoreScreenCode.GDNewSprite3Objects1});
-gdjs.ScoreScreenCode.asyncCallback12140612 = function (runtimeScene, asyncObjectsList) {
+gdjs.ScoreScreenCode.asyncCallback15165660 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ScoreScreenCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "EndScreen", false);
 }gdjs.ScoreScreenCode.localVariables.length = 0;
@@ -33,7 +33,7 @@ gdjs.ScoreScreenCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.ScoreScreenCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.ScoreScreenCode.asyncCallback12140612(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.ScoreScreenCode.asyncCallback15165660(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -58,7 +58,7 @@ gdjs.ScoreScreenCode.eventsList0(runtimeScene);} //End of subevents
 
 
 };gdjs.ScoreScreenCode.mapOfGDgdjs_9546ScoreScreenCode_9546GDNewSprite4Objects1Objects = Hashtable.newFrom({"NewSprite4": gdjs.ScoreScreenCode.GDNewSprite4Objects1});
-gdjs.ScoreScreenCode.asyncCallback14778636 = function (runtimeScene, asyncObjectsList) {
+gdjs.ScoreScreenCode.asyncCallback15211884 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.ScoreScreenCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "EndScreen", false);
 }gdjs.ScoreScreenCode.localVariables.length = 0;
@@ -72,7 +72,7 @@ gdjs.ScoreScreenCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.ScoreScreenCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.ScoreScreenCode.asyncCallback14778636(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.ScoreScreenCode.asyncCallback15211884(runtimeScene, asyncObjectsList)));
 }
 }
 

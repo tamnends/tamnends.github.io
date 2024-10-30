@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ShakeObject3D__SetFrequency !== "undefined") {
 gdjs.evtsExt__ShakeObject3D__SetFrequency = {};
 
 
-gdjs.evtsExt__ShakeObject3D__SetFrequency.userFunc0xa8fe78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__SetFrequency.userFunc0xaa75a8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const name = eventsFunctionContext.getArgument("Name");
 
@@ -19,7 +19,7 @@ gdjs.evtsExt__ShakeObject3D__SetFrequency.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__ShakeObject3D__SetFrequency.userFunc0xa8fe78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ShakeObject3D__SetFrequency.userFunc0xaa75a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

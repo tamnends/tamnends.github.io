@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ShakeObject3D__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__ShakeObject3D__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__ShakeObject3D__onFirstSceneLoaded.userFunc0xa82e48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__onFirstSceneLoaded.userFunc0x8d7928 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._shakeObjectExtension = gdjs._shakeObjectExtension || {};
 
@@ -648,7 +648,7 @@ gdjs.evtsExt__ShakeObject3D__onFirstSceneLoaded.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__ShakeObject3D__onFirstSceneLoaded.userFunc0xa82e48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ShakeObject3D__onFirstSceneLoaded.userFunc0x8d7928(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
